@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #172a5b;
+  --color-secondary: #f5d313;
+  --color-tertiary: #213e89;
+}
+
+.b {
+  border: 2px solid;
+}
+
+.bb {
+  border: 2px solid red;
+}
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%) rotate(12deg);
+  }
+  100% {
+    transform: translateX(200%) rotate(12deg);
+  }
+}
